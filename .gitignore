@@ -1,0 +1,32 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+/packages/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore Visual Studio files
+.vs/
+*.vscode/
+*.xproj
+*.swp
+*.swo
+
+# Ignore logs and other generated files
+*.log
+*.cache
+*.bak
+*.tmp
+
+# Ignore test results
+TestResults/
+
+# Ignore publish output
+publish/

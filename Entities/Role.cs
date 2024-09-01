@@ -1,0 +1,8 @@
+using Microsoft.AspNetCore.Identity;
+
+public class ApplicationRole : IdentityRole
+{
+    public string? Description { get; set; }
+    
+    public List<Permissions> RolePermissions { get; set; } = [];
+}
