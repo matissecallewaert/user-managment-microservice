@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 
+namespace UserManagment.Entities;
+
 public class ApplicationUser : IdentityUser
 {
     public required string FirstName { get; set; }

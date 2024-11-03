@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using UserManagment.Entities;
+using UserManagment.Enums;
+
+namespace UserManagment.EntityConfigurations;
 
 public class ApplicationRoleConfiguration : IEntityTypeConfiguration<ApplicationRole>
 {

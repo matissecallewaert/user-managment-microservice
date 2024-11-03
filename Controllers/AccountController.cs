@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using UserManagment.Entities;
+
+namespace UserManagment.Controllers;
 
 [ApiController]
 [Route("api/account")]

@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using UserManagment.Entities;
+using UserManagment.Enums;
+
+namespace UserManagment.Controllers;
 
 [ApiController]
 [Route("api/roles")]

@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Identity;
+using UserManagment.Enums;
+
+namespace UserManagment.Entities;
 
 public class ApplicationRole : IdentityRole
 {

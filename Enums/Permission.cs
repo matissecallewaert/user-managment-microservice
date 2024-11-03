@@ -1,3 +1,4 @@
+namespace UserManagment.Enums;
 public enum Permissions // TODO: Change this for your use case
 {
     Read,
